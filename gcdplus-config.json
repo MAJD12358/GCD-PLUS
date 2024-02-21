@@ -1,5 +1,7 @@
 {
   "theme": "dark",
-  "maxMemory": "2GB",
-  "logging": true
+  "maxMemory": "8GB",
+  "logging": true,
+  "customFeatures": ["Feature1", "Feature2"],
+  "outputDirectory": "build/"
 }
