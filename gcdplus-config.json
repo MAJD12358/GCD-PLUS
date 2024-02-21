@@ -1,7 +1,14 @@
 {
-  "theme": "dark",
-  "maxMemory": "8GB",
-  "logging": true,
-  "customFeatures": ["Feature1", "Feature2"],
-  "outputDirectory": "build/"
+  "compilerOptions": {
+    "target": "es2021",
+    "module": "commonjs",
+    "strict": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true
+  },
+  "languageOptions": {
+    "caseSensitive": true,
+    "indentation": 2,
+    "comments": "//"
+  }
 }
