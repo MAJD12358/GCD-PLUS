@@ -10,5 +10,12 @@
     "caseSensitive": true,
     "indentation": 2,
     "comments": "//"
+  },
+  "syntaxColors": {
+    "keyword": "purple",
+    "identifier": "green",
+    "string": "blue",
+    "number": "orange",
+    "comment": "gray"
   }
 }
