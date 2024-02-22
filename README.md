@@ -1,37 +1,96 @@
-# GCD+ Advanced Community Code of Conduct
+```markdown
+# GCD+ Advanced App
 
-## Our Commitment
+Welcome to the GCD+ Advanced App repository! This project aims to showcase the capabilities of the GCD+ programming language by building a sophisticated and feature-rich application. Below, you'll find an overview of the app's components and some example GCD+ code snippets.
 
-Welcome to the GCD+ Advanced Community! We are committed to creating an environment that encourages collaboration, innovation, and mutual respect among its members.
+## App Overview
 
-## Inclusivity
+The GCD+ Advanced App is designed to demonstrate the language's versatility in creating a modern and advanced application. It includes various modules such as content distribution, AI recommendations, live streaming, voice chat, content filtering, and more.
 
-We celebrate diversity in all its forms, including but not limited to race, ethnicity, gender identity, sexual orientation, age, ability, and background. Everyone is welcome, and we actively work to create an inclusive space.
+## GCD+ Code Examples
 
-## Positive Engagement
+### Content Distribution
 
-Engage with others in a positive and constructive manner. Encourage open discussions and value different perspectives. Avoid offensive language, personal attacks, and any form of discrimination.
+```GCD+
++ContentDistribution#contentDistributionComponent
+Blockchain#true
+SmartContracts
+  DistributeContent#true
+  MonetizeContent#true
+  ValidateOwnership#true
+//
+Text# "Content Distribution"
+Color#FFFFFF
+Font#Roboto
+Size#18
+//
+Navigate#To="Home"
+Text# "Navigate to Home"
+Color#FFFFFF
+Font#Roboto
+Size#18
+//
+```
 
-## Collaboration Guidelines
+### AI Recommendations
 
-- **Code of Conduct:** Follow the principles outlined in this Code of Conduct at all times.
-- **Communication Channels:** Use appropriate communication channels for discussions, questions, and feedback.
-- **Contributions:** Welcome contributions from all members. Provide constructive feedback on pull requests and issues.
+```GCD+
++AIRecommendations#aiRecommendationsComponent
+ContentRecommendation
+  Personalized#true
+  Trending#true
+  SimilarUsers#true
+  AnalyzeAudio#true
+  AnalyzeVideo#true
+  SentimentAnalysis#true
+//
+Text# "AI Content Recommendations"
+Color#FFFFFF
+Font#Roboto
+Size#18
+//
+Navigate#To="Explore"
+Text# "Navigate to Explore"
+Color#FFFFFF
+Font#Roboto
+Size#18
+//
+```
 
-## Reporting Incidents
+### Live Streaming
 
-If you witness or experience behavior that goes against these guidelines, please report it promptly to the community moderators at [majdsaadi10096@gmail.com]. All reports will be handled confidentially.
+```GCD+
++LiveStreaming#liveStreamingComponent
+CameraSource# "front_camera"
+Microphone#true
+StartButton# "Start Live"
+StopButton# "Stop Live"
+ViewersCount# "viewersCount.json"
+Chat
+  Enable#true
+  ChatHistory# "liveChatHistory.json"
+  ViewerList# "viewerList.json"
+//
+Text# "Live Streaming"
+Color#FFFFFF
+Font#Roboto
+Size#18
+//
+Navigate#To="Profile"
+Text# "Navigate to Profile"
+Color#FFFFFF
+Font#Roboto
+Size#18
+//
+```
 
-## Enforcement
+These code snippets provide a glimpse into the GCD+ syntax for building the various components of the app. Feel free to explore the full source code to understand the complete implementation.
 
-Community moderators have the authority to address violations and may take actions such as warnings, temporary suspension, or permanent expulsion from the community, depending on the severity of the violation.
+## Getting Started
 
-## Continuous Improvement
+To run the GCD+ Advanced App locally, follow the steps in the [Installation Guide](./docs/installation.md). For more details on the GCD+ language features, check out the [Documentation](./docs).
 
-We encourage ongoing feedback and suggestions to enhance our community. Your input helps us create a better environment for everyone.
+Happy coding with GCD+!
+```
 
-## Attribution
-
-This Code of Conduct is inspired by the [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct.html). We appreciate their efforts to establish a welcoming and inclusive standard for open source communities.
-
-Thank you for being part of the GCD+ Advanced Community!
+This README.md file provides an introduction to the GCD+ Advanced App, along with GCD+ code examples for key features. Customize the code examples based on your specific application requirements.
