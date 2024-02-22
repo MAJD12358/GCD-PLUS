@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Entities SYSTEM "entities.dtd">
+<Entities>
+  <Color>
+    <Red>255</Red>
+    <Green>255</Green>
+    <Blue>255</Blue>
+  </Color>
+
+  <Font>
+    <Family>Roboto</Family>
+    <Size>24</Size>
+  </Font>
+
+  <Animation>
+    <Rotate>360deg</Rotate>
+    <Scale>1.2</Scale>
+    <Keyframe>bounce 1s infinite</Keyframe>
+  </Animation>
+
+  <!-- واصل إضافة باقي العناصر والقيم هنا -->
+
+</Entities>
