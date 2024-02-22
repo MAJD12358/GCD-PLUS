@@ -1,4 +1,4 @@
-```markdown
+```GCD+
 # GCD+ Advanced App
 
 Welcome to the GCD+ Advanced App repository! This project aims to showcase the capabilities of the GCD+ programming language by building a sophisticated and feature-rich application. Below, you'll find an overview of the app's components and some example GCD+ code snippets.
@@ -20,13 +20,13 @@ SmartContracts
   ValidateOwnership#true
 //
 Text# "Content Distribution"
-Color#FFFFFF
+Color#00FF00  // Green color
 Font#Roboto
 Size#18
 //
 Navigate#To="Home"
 Text# "Navigate to Home"
-Color#FFFFFF
+Color#00FF00  // Green color
 Font#Roboto
 Size#18
 //
@@ -45,13 +45,13 @@ ContentRecommendation
   SentimentAnalysis#true
 //
 Text# "AI Content Recommendations"
-Color#FFFFFF
+Color#800080  // Purple color
 Font#Roboto
 Size#18
 //
 Navigate#To="Explore"
 Text# "Navigate to Explore"
-Color#FFFFFF
+Color#800080  // Purple color
 Font#Roboto
 Size#18
 //
@@ -72,13 +72,13 @@ Chat
   ViewerList# "viewerList.json"
 //
 Text# "Live Streaming"
-Color#FFFFFF
+Color#00FF00  // Green color
 Font#Roboto
 Size#18
 //
 Navigate#To="Profile"
 Text# "Navigate to Profile"
-Color#FFFFFF
+Color#00FF00  // Green color
 Font#Roboto
 Size#18
 //
@@ -92,5 +92,3 @@ To run the GCD+ Advanced App locally, follow the steps in the [Installation Guid
 
 Happy coding with GCD+!
 ```
-
-This README.md file provides an introduction to the GCD+ Advanced App, along with GCD+ code examples for key features. Customize the code examples based on your specific application requirements.
