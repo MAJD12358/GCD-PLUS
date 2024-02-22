@@ -1,29 +1,6 @@
-echo "# Ignore compiled files
-*.gcd+
-
-# Ignore entity files
-entities.json
-entities.dtd
-entities.xml
-
-# Ignore configuration files
-gcdplus-config.json
-
-# Ignore build artifacts
-/build/
-
-# Ignore user-specific files
-/.vscode/
-/.idea/
-
-# Ignore generated documentation
-/docs/
-
-# Ignore logs and temp files
-/logs/
-/temp/
-
-# Ignore application-specific files
-/advanced_ai_plus/
-/movie_app/
-/simple_app/" > .gitignore
+# Git commands
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin <repository_url>
+git push -u origin master
