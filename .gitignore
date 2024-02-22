@@ -1,7 +1,29 @@
- git add .gitignore
-git commit -m "Add .gitignore file"
-git remote add origin <رابط مستودع GitHub>
-git branch -M main
-git push -u origin main
-git add main.gcd+
-git commit -m "Add main GCD+ file"
+ # Ignore compiled files
+*.gcd+
+
+# Ignore entity files
+entities.json
+entities.dtd
+entities.xml
+
+# Ignore configuration files
+gcdplus-config.json
+
+# Ignore build artifacts
+/build/
+
+# Ignore user-specific files
+/.vscode/
+/.idea/
+
+# Ignore generated documentation
+/docs/
+
+# Ignore logs and temp files
+/logs/
+/temp/
+
+# Ignore application-specific files
+/advanced_ai_plus/
+/movie_app/
+/simple_app/
