@@ -1,0 +1,27 @@
+# .github/workflows/ci-cd.yml
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Setup GCD+ environment
+      run: |
+        # Your setup commands here
+
+    - name: Run tests
+      run: gcdplus_compiler test
+
+    - name: Deploy to production
+      if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+      run: |
+        # Your deployment script here
