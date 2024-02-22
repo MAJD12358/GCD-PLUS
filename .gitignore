@@ -1,18 +1,29 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+ # Ignore compiled files
+*.gcd+
 
-# Other files and folders
-.settings/
+# Ignore entity files
+entities.json
+entities.dtd
+entities.xml
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Ignore configuration files
+gcdplus-config.json
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Ignore build artifacts
+/build/
+
+# Ignore user-specific files
+/.vscode/
+/.idea/
+
+# Ignore generated documentation
+/docs/
+
+# Ignore logs and temp files
+/logs/
+/temp/
+
+# Ignore application-specific files
+/advanced_ai_plus/
+/movie_app/
+/simple_app/
