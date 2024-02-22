@@ -27,3 +27,53 @@ gcdplus-config.json
 /advanced_ai_plus/
 /movie_app/
 /simple_app/
+
+# Ignore Git-related files
+.gitignore
+.gitattributes
+
+# Ignore Node.js specific files
+node_modules/
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore compiled Java files
+*.class
+
+# Ignore compiled C/C++ files
+*.o
+*.out
+
+# Ignore compiled .NET files
+bin/
+obj/
+
+# Ignore compiled Ruby files
+*.gem
+
+# Ignore compiled PHP files
+*.phpc
+
+# Ignore compiled Swift files
+*.swiftdoc
+*.swiftmodule
+
+# Ignore compiled Kotlin files
+*.kotlin_built
+
+# Ignore compiled Go files
+*.exe
+*.dll
+*.so
+*.out
+
+# Ignore package manager directories
+/node_modules/
+/bower_components/
+/vendor/
+
+# Ignore miscellaneous files
+Thumbs.db
+.DS_Store
+Desktop.ini
