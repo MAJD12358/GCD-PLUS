@@ -1,4 +1,4 @@
- # Ignore compiled files
+echo "# Ignore compiled files
 *.gcd+
 
 # Ignore entity files
@@ -26,4 +26,4 @@ gcdplus-config.json
 # Ignore application-specific files
 /advanced_ai_plus/
 /movie_app/
-/simple_app/
+/simple_app/" > .gitignore
