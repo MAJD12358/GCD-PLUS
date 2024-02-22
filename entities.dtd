@@ -1,79 +1,38 @@
-<!ELEMENT Entities (Color, Font, Animation, Interaction, Security, AdvancedFeatures, Accessibility, Cloud, DevOps, Testing, FutureProofing, DeveloperTools, Documentation, License, Contributing, Configuration)>
-
-<!ELEMENT Color (Red, Green, Blue)>
-<!ELEMENT Red (#PCDATA)>
-<!ELEMENT Green (#PCDATA)>
-<!ELEMENT Blue (#PCDATA)>
-
-<!ELEMENT Font (Family, Size)>
-<!ELEMENT Family (#PCDATA)>
-<!ELEMENT Size (#PCDATA)>
-
-<!ELEMENT Animation (Rotate, Scale, Keyframe)>
-<!ELEMENT Rotate (#PCDATA)>
-<!ELEMENT Scale (#PCDATA)>
-<!ELEMENT Keyframe (#PCDATA)>
-
-<!ELEMENT Interaction (OnHover, OnClick)>
-<!ELEMENT OnHover (#PCDATA)>
-<!ELEMENT OnClick (#PCDATA)>
-
-<!ELEMENT Security (Encrypt, Firewall)>
-<!ELEMENT Encrypt (#PCDATA)>
-<!ELEMENT Firewall (#PCDATA)>
-
-<!ELEMENT AdvancedFeatures (ParallelProcessing, MachineLearning, AugmentedReality, BlockchainIntegration, QuantumComputing, NanoTechnologyIntegration, BrainComputerInterface)>
-<!ELEMENT ParallelProcessing (#PCDATA)>
-<!ELEMENT MachineLearning (#PCDATA)>
-<!ELEMENT AugmentedReality (#PCDATA)>
-<!ELEMENT BlockchainIntegration (#PCDATA)>
-<!ELEMENT QuantumComputing (#PCDATA)>
-<!ELEMENT NanoTechnologyIntegration (#PCDATA)>
-<!ELEMENT BrainComputerInterface (#PCDATA)>
-
-<!ELEMENT Accessibility (ScreenReaderSupport, KeyboardNavigation, VoiceControl, GestureRecognition, HapticFeedback)>
-<!ELEMENT ScreenReaderSupport (#PCDATA)>
-<!ELEMENT KeyboardNavigation (#PCDATA)>
-<!ELEMENT VoiceControl (#PCDATA)>
-<!ELEMENT GestureRecognition (#PCDATA)>
-<!ELEMENT HapticFeedback (#PCDATA)>
-
-<!ELEMENT Cloud (Storage, Database, Analytics, ServerlessComputing)>
-<!ELEMENT Storage (#PCDATA)>
-<!ELEMENT Database (#PCDATA)>
-<!ELEMENT Analytics (#PCDATA)>
-<!ELEMENT ServerlessComputing (#PCDATA)>
-
-<!ELEMENT DevOps (VersionControl, ContinuousIntegration, Deployment, Monitoring)>
-<!ELEMENT VersionControl (#PCDATA)>
-<!ELEMENT ContinuousIntegration (#PCDATA)>
-<!ELEMENT Deployment (#PCDATA)>
-<!ELEMENT Monitoring (#PCDATA)>
-
-<!ELEMENT Testing (UnitTesting, IntegrationTesting, PerformanceTesting, SecurityTesting)>
-<!ELEMENT UnitTesting (#PCDATA)>
-<!ELEMENT IntegrationTesting (#PCDATA)>
-<!ELEMENT PerformanceTesting (#PCDATA)>
-<!ELEMENT SecurityTesting (#PCDATA)>
-
-<!ELEMENT FutureProofing (QuantumResistantEncryption, DecentralizedAI, EnergyEfficientComputing)>
-<!ELEMENT QuantumResistantEncryption (#PCDATA)>
-<!ELEMENT DecentralizedAI (#PCDATA)>
-<!ELEMENT EnergyEfficientComputing (#PCDATA)>
-
-<!ELEMENT DeveloperTools (IDE, Debugger, Profiler)>
-<!ELEMENT IDE (#PCDATA)>
-<!ELEMENT Debugger (#PCDATA)>
-<!ELEMENT Profiler (#PCDATA)>
-
-<!ELEMENT Documentation (Generate)>
-<!ELEMENT Generate (#PCDATA)>
-
-<!ELEMENT License (Type)>
-<!ELEMENT Type (#PCDATA)>
-
-<!ELEMENT Contributing (Guidelines)>
-<!ELEMENT Guidelines (#PCDATA)>
-
-<!ELEMENT Configuration (Load)>
-<!ELEMENT Load (#PCDATA)>
+ <!ELEMENT GCDPlusEntities (HomomorphicEncryptionParameters, ScreenReaderVoice, RootOfTrust, ARVRIntegration, AdvancedInteraction, AdvancedAnalytics)>
+<!ELEMENT HomomorphicEncryptionParameters (Scheme, PolyModulusDegree, CoeffModulusBitSizes)>
+<!ELEMENT Scheme (#PCDATA)>
+<!ELEMENT PolyModulusDegree (#PCDATA)>
+<!ELEMENT CoeffModulusBitSizes (BitSize+)>
+<!ELEMENT BitSize (#PCDATA)>
+<!ELEMENT ScreenReaderVoice (#PCDATA)>
+<!ELEMENT RootOfTrust (SecureBoot, TrustedBootLoader, DigitalSignature?, CodeSigning?)>
+<!ELEMENT SecureBoot (#PCDATA)>
+<!ELEMENT TrustedBootLoader (#PCDATA)>
+<!ELEMENT DigitalSignature (#PCDATA)>
+<!ELEMENT CodeSigning (#PCDATA)>
+<!ELEMENT ARVRIntegration (ARSupport, VRSupport, SpatialMapping, HandTracking, ObjectRecognition, FacialExpressionAnalysis, VoiceCommands?)>
+<!ELEMENT ARSupport (#PCDATA)>
+<!ELEMENT VRSupport (#PCDATA)>
+<!ELEMENT SpatialMapping (#PCDATA)>
+<!ELEMENT HandTracking (#PCDATA)>
+<!ELEMENT ObjectRecognition (#PCDATA)>
+<!ELEMENT FacialExpressionAnalysis (#PCDATA)>
+<!ELEMENT VoiceCommands (Command*)>
+<!ELEMENT Command (#PCDATA)>
+<!ELEMENT AdvancedInteraction (Gestures, VoiceCommands?, BiometricAuthentication?)>
+<!ELEMENT Gestures (SwipeLeft, SwipeRight, PinchIn, PinchOut)>
+<!ELEMENT SwipeLeft (#PCDATA)>
+<!ELEMENT SwipeRight (#PCDATA)>
+<!ELEMENT PinchIn (#PCDATA)>
+<!ELEMENT PinchOut (#PCDATA)>
+<!ELEMENT VoiceCommands (Command*)>
+<!ELEMENT Command (#PCDATA)>
+<!ELEMENT BiometricAuthentication (Enable, Method?)>
+<!ELEMENT Enable (#PCDATA)>
+<!ELEMENT Method (#PCDATA)>
+<!ELEMENT AdvancedAnalytics (UserTracking, AppUsageStatistics, ErrorLogging, CustomEvents?)>
+<!ELEMENT UserTracking (#PCDATA)>
+<!ELEMENT AppUsageStatistics (#PCDATA)>
+<!ELEMENT ErrorLogging (#PCDATA)>
+<!ELEMENT CustomEvents (Event*)>
+<!ELEMENT Event (#PCDATA)>
