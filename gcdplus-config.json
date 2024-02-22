@@ -1,7 +1,7 @@
 {
   "languageName": "GCD+",
   "version": "1.0.0",
-  "author": "Your Name",
+  "author": "ZANO",
   "configurations": {
     "optimization": "high",
     "targetPlatform": ["web", "mobile", "desktop"],
