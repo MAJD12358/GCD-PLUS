@@ -2,6 +2,8 @@ MIT License
 
 Copyright (c) [2024] [GCD+]
 
+Ensure you replace `link-to-compiler` with the link to download your GCD+ compiler. Also, make sure to place GitHub Actions files in the `.github/workflows` folder, and adjust links and paths according to your project structure.
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
