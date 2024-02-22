@@ -1,21 +1,25 @@
-{
-  "compilerOptions": {
-    "target": "es2021",
-    "module": "commonjs",
-    "strict": true,
-    "noImplicitAny": true,
-    "esModuleInterop": true
+ {
+  "language": "GCD+",
+  "version": "1.0",
+  "author": "Your Name",
+  "syntax": {
+    "comments": {
+      "singleLine": "//",
+      "multiLineStart": "/*",
+      "multiLineEnd": "*/"
+    },
+    "variables": "$",
+    "operators": ["+", "-", "*", "/"]
   },
-  "languageOptions": {
-    "caseSensitive": true,
-    "indentation": 2,
-    "comments": "//"
+  "features": {
+    "advancedAI": true,
+    "ARVRSupport": true,
+    "securityEnhancements": true,
+    "userFriendlySyntax": true
   },
-  "syntaxColors": {
-    "keyword": "purple",
-    "identifier": "green",
-    "string": "blue",
-    "number": "orange",
-    "comment": "gray"
+  "defaults": {
+    "font": "Roboto",
+    "fontSize": 16,
+    "theme": "Dark"
   }
-}
+ }
