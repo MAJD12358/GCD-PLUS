@@ -1,4 +1,4 @@
-```GCD+
+ ```GCD+
 # GCD+ Advanced App
 
 Welcome to the GCD+ Advanced App repository! This project aims to showcase the capabilities of the GCD+ programming language by building a sophisticated and feature-rich application. Below, you'll find an overview of the app's components and some example GCD+ code snippets.
@@ -92,3 +92,5 @@ To run the GCD+ Advanced App locally, follow the steps in the [Installation Guid
 
 Happy coding with GCD+!
 ```
+
+This presentation enhances the appearance of the GCD+ Advanced App README.md with a clean and organized structure. Customize it further to suit your preferences and convey the information effectively.
