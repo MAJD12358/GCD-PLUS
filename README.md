@@ -1,43 +1,37 @@
-# GCD+ Community Code of Conduct
+# GCD+ Advanced Community Code of Conduct
 
 ## Our Commitment
 
-In the interest of creating an inclusive and respectful community, we, as contributors and maintainers, pledge to make participation in our project and community a positive and enriching experience for everyone.
+Welcome to the GCD+ Advanced Community! We are committed to creating an environment that encourages collaboration, innovation, and mutual respect among its members.
 
-## Our Standards
+## Inclusivity
 
-Examples of behavior that contributes to a positive environment include:
+We celebrate diversity in all its forms, including but not limited to race, ethnicity, gender identity, sexual orientation, age, ability, and background. Everyone is welcome, and we actively work to create an inclusive space.
 
-- Treating all individuals with respect and kindness
-- Welcoming and embracing diverse perspectives and experiences
-- Providing constructive and helpful feedback
-- Focusing on the community's well-being and growth
+## Positive Engagement
 
-Examples of unacceptable behavior include:
+Engage with others in a positive and constructive manner. Encourage open discussions and value different perspectives. Avoid offensive language, personal attacks, and any form of discrimination.
 
-- Harassment, discrimination, or any form of harmful language or actions
-- Disrespectful comments or personal attacks
-- Intolerance towards differing opinions or backgrounds
-- Any form of bullying or intimidation
+## Collaboration Guidelines
 
-## Our Responsibilities
+- **Code of Conduct:** Follow the principles outlined in this Code of Conduct at all times.
+- **Communication Channels:** Use appropriate communication channels for discussions, questions, and feedback.
+- **Contributions:** Welcome contributions from all members. Provide constructive feedback on pull requests and issues.
 
-Project maintainers are responsible for upholding these standards and taking corrective actions when needed. They have the authority to remove or address any content or behavior that violates this Code of Conduct.
+## Reporting Incidents
 
-## Reporting Violations
-
-If you experience or witness behavior that violates our standards, please contact the project team at [majdsaadi10096@gmail.com]. All reports will be treated confidentially and addressed promptly.
+If you witness or experience behavior that goes against these guidelines, please report it promptly to the community moderators at [majdsaadi10096@gmail.com]. All reports will be handled confidentially.
 
 ## Enforcement
 
-Instances of unacceptable behavior may result in a temporary or permanent ban from the community. Project maintainers will ensure fair and just enforcement of this Code of Conduct.
+Community moderators have the authority to address violations and may take actions such as warnings, temporary suspension, or permanent expulsion from the community, depending on the severity of the violation.
 
-## Scope
+## Continuous Improvement
 
-This Code of Conduct applies to all community spaces, including project repositories, discussion forums, and events, whether online or offline.
+We encourage ongoing feedback and suggestions to enhance our community. Your input helps us create a better environment for everyone.
 
 ## Attribution
 
-This Code of Conduct is adapted from the Contributor Covenant, version 2.0. For more details, visit [https://www.contributor-covenant.org/version/2/0/code_of_conduct.html](https://www.contributor-covenant.org/version/2/0/code_of_conduct.html).
+This Code of Conduct is inspired by the [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct.html). We appreciate their efforts to establish a welcoming and inclusive standard for open source communities.
 
-For answers to common questions about this code of conduct, see [https://www.contributor-covenant.org/faq](https://www.contributor-covenant.org/faq).
+Thank you for being part of the GCD+ Advanced Community!
